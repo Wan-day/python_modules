@@ -24,7 +24,7 @@ class Plant:
 
 def main() -> None:
     print("=== Garden Plant Growth ===")
-    rose = Plant("Rose", 25.0, 25, 0.4)
+    rose = Plant("Rose", 25, 25, 0.4)
     rose.show()
     rose.age(7)
 
