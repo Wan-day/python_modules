@@ -1,5 +1,5 @@
 def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
-    seed = seed_type.capitalize()
+    seed: str = seed_type.capitalize()
     if (unit == "packets"):
         print(f"{seed} seeds: {quantity} {unit} available")
     elif (unit == "grams"):

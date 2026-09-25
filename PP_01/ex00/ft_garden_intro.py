@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 def main() -> None:
-    name = "Rose"
-    height = 25
-    age = 30
+    name: str = "Rose"
+    height: int = 25
+    age: int = 30
     print(f"""=== Welcome to My Garden ===
 Plant: {name}
 Height: {height}cm

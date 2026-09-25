@@ -1,5 +1,5 @@
-def ft_plant_age():
-    age = int(input("Enter plange age in days: "))
+def ft_plant_age() -> None:
+    age: int = int(input("Enter plange age in days: "))
     if (age > 60):
         print("Plant is ready to harvest!")
     else:
