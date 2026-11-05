@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "oracle"
+version = "0.1.0"
+description = "Environment-driven configuration demo"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1"
+
+[tool.pyright]
+include = ["oracle.py"]
+typeCheckingMode = "strict"
+pythonVersion = "3.10"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

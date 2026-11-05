@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alchemist-lab"
+version = "0.1.0"
+description = "Sealed laboratory with declared reagents"
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+numpy = "^1.24"
+matplotlib = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
